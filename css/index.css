@@ -1,0 +1,36 @@
+.class1{
+    border-left: 6px solid #ff2a00;
+}
+
+#multimedia{
+    border-left: 6px solid rgb(102, 4, 4);
+}
+
+#contacto{
+    border-left: 6px solid #000000;
+}
+
+#intereses{
+    border-left: 6px solid #6aa20f;
+}
+
+.classBuscarContacto{
+    border-left: 6px solid #000000;
+}
+
+#multimedia h2{
+    color:green;
+}
+
+main figure{
+    padding: 15px;
+    border: 1px solid #dddddd;
+    background: #f4f4f8;
+    border-radius: 10px;
+}
+section form{
+    padding: 15px;
+    border: 1px dashed #a8a8a7;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
