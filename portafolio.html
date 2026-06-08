@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Tecnológico</title>
+
+    <link rel="icon" href="img/mundito.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+</head>
+
+<body>
+
+    <!-- Encabezado de la página de portafolio -->
+    <header>
+        <h1>Mi Portafolio Tecnológico</h1>
+        <p>Trayectoria de aprendizaje en desarrollo web, habilidades técnicas y objetivos profesionales.</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+
+        <a href="index.html#objetivo">Objetivo</a>
+
+        <a href="index.html#intereses">Intereses</a>
+
+        <a href="pages/buscar.html">Buscar</a>
+
+        <a href="pages/cto/contacto.html">
+            <i class="fa-solid fa-envelope"></i>
+            Contacto
+        </a>
+
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección introductoria -->
+        <section id="estado-actual">
+            <h2>Estado Actual</h2>
+            <p>
+                Actualmente me encuentro cursando la asignatura de Fundamentos de Sistemas Web en la
+                Universidad de las Fuerzas Armadas ESPE. En esta etapa del aprendizaje he consolidado
+                el uso de HTML semántico y CSS para estructurar y estilizar páginas web de manera organizada
+                y responsiva.
+            </p>
+            <p class="nota">
+                Este portafolio documenta mi progreso técnico y refleja las competencias adquiridas
+                durante el período académico abril – agosto 2026.
+            </p>
+
+            <p>Tecnologías clave:</p>
+            <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                <li><i class="fa-brands fa-github"></i> GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Sección sobre el portafolio -->
+        <section id="sobre-portafolio">
+            <h2>Sobre este Portafolio</h2>
+            <p>
+                Este espacio fue creado como una extensión del sitio web desarrollado en clase,
+                con el propósito de presentar de forma visual y organizada los proyectos, avances
+                y aprendizajes obtenidos durante la unidad de trabajo. La estructura sigue el mismo
+                patrón semántico de las demás páginas del proyecto, utilizando etiquetas como
+                <code>section</code>, <code>article</code> y <code>figure</code>.
+            </p>
+            <p class="nota">
+                Este portafolio se amplía de manera progresiva conforme se incorporan nuevas
+                tecnologías y técnicas de maquetación al proyecto académico.
+            </p>
+        </section>
+
+        <!-- Sección de proyectos y bloques de información -->
+        <section id="proyectos">
+            <h2>Proyectos y Bloques de Información</h2>
+
+            <!-- Artículo 1 -->
+            <article class="tarjeta-proyecto">
+                <h3>01 / Maquetación Estática</h3>
+                <p>
+                    Construcción de la estructura base del proyecto utilizando etiquetas semánticas
+                    nativas de HTML5 para garantizar la accesibilidad, la legibilidad del código
+                    y el SEO básico del sitio web.
+                </p>
+                <p><strong>Etiquetas aplicadas:</strong> header, nav, main, section, article, aside, footer.</p>
+            </article>
+
+            <!-- Artículo 2 -->
+            <article class="tarjeta-proyecto">
+                <h3>02 / Estilos y Modelo de Caja</h3>
+                <p>
+                    Aplicación de propiedades de color, fondos, bordes y control preciso de los
+                    espacios internos (padding) y externos (margin) para transformar la visualización
+                    del documento HTML en una interfaz estilizada y coherente.
+                </p>
+                <p><strong>Propiedades clave:</strong> box-sizing, margin, padding, border-radius, background-color.</p>
+            </article>
+
+            <!-- Artículo 3 -->
+            <article class="tarjeta-proyecto">
+                <section class="form">
+                <h3>03 / Adaptación Responsiva</h3>
+                <p>
+                    Implementación de consultas de medios (media queries) para asegurar que la
+                    interfaz se adapte correctamente en pantallas móviles con un ancho menor a 700px,
+                    reorganizando el menú, los formularios y los elementos multimedia.
+                </p>
+                <p><strong>Técnicas:</strong> @media, flex-direction, width: 100%, max-width.</p>
+            </section>
+            </article>
+
+            <!-- Artículo 4 -->
+            <article class="tarjeta-proyecto">
+                <h3>04 / Navegación y Rutas Relativas</h3>
+                <p>
+                    Organización del proyecto en carpetas y subcarpetas, utilizando rutas relativas
+                    correctas para enlazar páginas internas como buscar.html y contacto.html desde
+                    distintos niveles del árbol de archivos.
+                </p>
+                <p><strong>Conceptos:</strong> rutas relativas, atributo href, estructura de carpetas.</p>
+            </article>
+        </section>
+
+        <!-- Sección con imagen de la institución -->
+        <section id="entorno">
+            <h2>Entorno de Desarrollo</h2>
+
+            <figure>
+                <img src="img/espe/imagenEjemploEspe.png" alt="Universidad ESPE Santo Domingo" width="320">
+                <figcaption>Evidencia del entorno académico en el que se desarrolló la práctica.</figcaption>
+            </figure>
+
+            <p>
+                El desarrollo de este proyecto se llevó a cabo utilizando Visual Studio Code como
+                editor principal, Git para el control de versiones y GitHub como repositorio remoto
+                de acceso público.
+            </p>
+        </section>
+
+        <!-- Sección de objetivos profesionales -->
+        <section id="objetivos-profesionales">
+            <h2>Objetivos Profesionales</h2>
+
+            <article>
+                <h3>Corto plazo</h3>
+                <p>
+                    Dominar los fundamentos de HTML y CSS para construir sitios web bien estructurados,
+                    accesibles y visualmente atractivos sin depender de frameworks externos.
+                </p>
+            </article>
+
+            <article>
+                <h3>Mediano plazo</h3>
+                <p>
+                    Incorporar JavaScript al flujo de trabajo para añadir interactividad real a los
+                    formularios y componentes de la página, procesando datos del lado del cliente.
+                </p>
+            </article>
+
+            <article>
+                <h3>Largo plazo</h3>
+                <p>
+                    Desarrollar aplicaciones web completas con tecnologías de frontend modernas y
+                    conectarlas a servicios de backend, contribuyendo a proyectos de ingeniería de software.
+                </p>
+            </article>
+        </section>
+
+        <!-- Sección de tabla de habilidades -->
+        <section id="habilidades">
+            <h2>Progreso de Habilidades Técnicas</h2>
+
+            <table border="1">
+                <caption>Resultados de Aprendizaje Obtenidos</caption>
+
+                <thead>
+                    <tr>
+                        <th>Tecnología / Concepto</th>
+                        <th>Nivel de Dominio</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML Semántico</td>
+                        <td>Avanzado (etiquetas nativas y estructura organizada)</td>
+                    </tr>
+                    <tr>
+                        <td>Sintaxis y Selectores CSS</td>
+                        <td>Avanzado (clases, IDs, selectores descendentes)</td>
+                    </tr>
+                    <tr>
+                        <td>Modelo de Caja (Box Model)</td>
+                        <td>Intermedio (control de padding, margin y border)</td>
+                    </tr>
+                    <tr>
+                        <td>Flexbox</td>
+                        <td>Intermedio (menú de navegación y alineación)</td>
+                    </tr>
+                    <tr>
+                        <td>Diseño Responsivo (Media Queries)</td>
+                        <td>Intermedio (adaptación a 700px)</td>
+                    </tr>
+                    <tr>
+                        <td>Rutas Relativas y Estructura de Archivos</td>
+                        <td>Avanzado (organización en carpetas y subcarpetas)</td>
+                    </tr>
+                    <tr>
+                        <td>Uso de Repositorios (GitHub)</td>
+                        <td>Básico (commit, push y repositorio público)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección de avance del curso -->
+        <section id="avance">
+            <h2>Avance General del Curso</h2>
+
+            <label for="html-prog">HTML Semántico:</label>
+            <progress id="html-prog" value="90" max="100"></progress>
+            <span>90%</span>
+
+            <p>CSS y Selectores:</p>
+            <progress value="80" max="100"></progress>
+            <span>80%</span>
+
+            <p>Diseño Responsivo:</p>
+            <progress value="70" max="100"></progress>
+            <span>70%</span>
+
+            <p>Nivel general de preparación para JavaScript:</p>
+            <meter value="7" min="0" max="10"></meter>
+        </section>
+
+        <!-- Sección de preguntas frecuentes -->
+        <section>
+            <h2>Preguntas y Reflexiones del Proceso</h2>
+
+            <details>
+                <summary>¿Por qué es importante el HTML semántico?</summary>
+                <p>
+                    Porque permite que navegadores, lectores de pantalla y motores de búsqueda
+                    comprendan la estructura del contenido, mejorando la accesibilidad y el SEO.
+                </p>
+            </details>
+
+            <details>
+                <summary>¿Qué fue lo más desafiante al aplicar CSS?</summary>
+                <p>
+                    Comprender el modelo de caja y el comportamiento de box-sizing: border-box fue
+                    el reto principal, especialmente al construir formularios que debían verse
+                    correctamente tanto en escritorio como en dispositivos móviles.
+                </p>
+            </details>
+
+            <details>
+                <summary>¿Por qué se usó el enfoque Desktop-First en lugar de Mobile-First?</summary>
+                <p>
+                    Porque el proyecto inició desde el diseño en pantalla grande para luego
+                    adaptarlo con media queries. En versiones futuras se planea migrar a un
+                    enfoque Mobile-First para optimizar la experiencia desde el inicio.
+                </p>
+            </details>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Jair Orlando Uribe.</p>
+        <p>Clase de Fundamentos Web — Portafolio de Evidencias.</p>
+
+        <address>
+            Ecuador<br>
+            Contacto académico: curso@ejemplo.com
+        </address>
+    </footer>
+
+</body>
+
+</html>
