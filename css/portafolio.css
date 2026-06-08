@@ -190,6 +190,7 @@ main details summary {
 
 main details summary:hover {
     color: #1b7505;
+<<<<<<< HEAD
 }
 .form{
     border-left:3px solid green;
@@ -198,4 +199,6 @@ main details summary:hover {
 
 .form h3 {
     color: black;
+=======
+>>>>>>> d5bfc8a7b1bece2302049d4a38b0e4f1a8f072b7
 }
